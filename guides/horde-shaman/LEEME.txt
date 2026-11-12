@@ -4,12 +4,13 @@ GUIAS DE CHAMAN DE LA HORDA PARA WoW FOREVER (formato RestedXP Guides)
 Que es
 ------
 Guias de leveling para un chaman de la Horda en WoW Forever, en el formato del
-addon RestedXP Guides. Cubren los niveles 29 a 60 y las misiones de clase.
+addon RestedXP Guides. Cubren los niveles 21 a 60 y las misiones de clase.
 Este paquete NO incluye el addon RestedXP Guides: tienes que tenerlo instalado.
 No tiene relacion con RestedXP ni con Blizzard.
 
 Archivos
 --------
+Horde-Shaman-22-30.lua        4 guias, niveles 21-30 (Ashenvale, Hillsbrad, Barrens, Stonetalon)
 Horde-Shaman-30-50.lua       12 guias, niveles 29-51 (Hillsbrad / Arathi ... Azshara)
 Horde-Shaman-50-60.lua        7 guias, niveles 51-60 (Un'Goro ... Felwood)
 Horde-Shaman-ClassQuests.lua  4 guias de misiones de chaman (Call of Water,
@@ -26,12 +27,13 @@ Instalacion
    World of Warcraft/_forever_/Interface/AddOns/RXPGuides/Guides/GuideList-forever.xml
    y anade estas lineas junto a las demas lineas <Script ... />:
 
+       <Script file="Guides/forever/Horde-Shaman-22-30.lua"/>
        <Script file="Guides/forever/Horde-Shaman-30-50.lua"/>
        <Script file="Guides/forever/Horde-Shaman-50-60.lua"/>
        <Script file="Guides/forever/Horde-Shaman-ClassQuests.lua"/>
 
 4. Entra al juego (o /reload). Las guias salen en el grupo
-   "RestedXP Forever Guide (H)", en los subgrupos "Shaman Guide 30-50",
+   "RestedXP Forever Guide (H)", en los subgrupos "Shaman Guide 22-30", "Shaman Guide 30-50",
    "Shaman Guide 50-60" y "Shaman Class Quests". Solo aparecen para un
    chaman de la Horda.
 

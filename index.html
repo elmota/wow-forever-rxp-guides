@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guías de leveling para WoW Forever — formato RestedXP Guides</title>
-  <meta name="description" content="Guías de leveling descargables por rango de nivel para el addon RestedXP Guides en WoW Forever. Por ahora: chamán de la Horda, niveles 29 a 60 y misiones de clase.">
+  <meta name="description" content="Guías de leveling descargables por rango de nivel para el addon RestedXP Guides en WoW Forever. Por ahora: chamán de la Horda, niveles 21 a 60 y misiones de clase.">
   <style>
     :root {
       --page: #ece6da;
@@ -79,12 +79,20 @@
     <h1>Guías de leveling para WoW Forever</h1>
     <p class="lead">
       Rutas descargables por rango de nivel para el addon RestedXP Guides. Por ahora: chamán de la Horda,
-      de 29 a 60, y sus misiones de clase.
+      de 21 a 60, y sus misiones de clase.
     </p>
 
     <section aria-labelledby="descargas">
       <h2 id="descargas">Descarga por rango de nivel</h2>
       <ul class="lista">
+        <li class="fila">
+          <span class="nivel">21–30</span>
+          <div>
+            <h3>Ashenvale a Thousand Needles</h3>
+            <p>4 guías encadenadas: Ashenvale y Silverpine, Hillsbrad, Barrens y Stonetalon, y Ashenvale con Thousand Needles. Enlazan con la guía de Barrens de RestedXP.</p>
+          </div>
+          <a class="btn" href="guides/horde-shaman/Horde-Shaman-22-30.lua" download>Descargar <span class="meta">.lua · 67 KB</span></a>
+        </li>
         <li class="fila">
           <span class="nivel">29–51</span>
           <div>
@@ -113,7 +121,7 @@
       <p class="todo">
         <a class="btn btn-primary" href="guides/horde-shaman/guias-chaman-horda-forever.zip" download>Descargar todo <span class="meta">.zip · con licencia e instrucciones</span></a>
       </p>
-      <p class="nota">El tramo 1–29 lo cubre RestedXP Guides.</p>
+      <p class="nota">El tramo 1–21 lo cubre RestedXP Guides.</p>
     </section>
 
     <section aria-labelledby="instalar">
@@ -123,7 +131,8 @@
         <li>Copia los archivos <code>.lua</code> a <code>Interface/AddOns/RXPGuides/Guides/forever/</code>.</li>
         <li>
           Abre <code>Interface/AddOns/RXPGuides/Guides/GuideList-forever.xml</code> y añade una línea por archivo, junto a las demás:
-          <pre><code>&lt;Script file="Guides/forever/Horde-Shaman-30-50.lua"/&gt;
+          <pre><code>&lt;Script file="Guides/forever/Horde-Shaman-22-30.lua"/&gt;
+&lt;Script file="Guides/forever/Horde-Shaman-30-50.lua"/&gt;
 &lt;Script file="Guides/forever/Horde-Shaman-50-60.lua"/&gt;
 &lt;Script file="Guides/forever/Horde-Shaman-ClassQuests.lua"/&gt;</code></pre>
         </li>

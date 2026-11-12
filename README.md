@@ -1,7 +1,7 @@
 # Guías de leveling para WoW Forever (formato RestedXP Guides)
 
 Guías descargables, por rango de nivel, para el addon
-[RestedXP Guides](https://www.restedxp.com/) en **WoW Forever**. Por ahora: **chamán de la Horda**, niveles 29 a 60 y misiones de clase.
+[RestedXP Guides](https://www.restedxp.com/) en **WoW Forever**. Por ahora: **chamán de la Horda**, niveles 21 a 60 y misiones de clase.
 
 > **No están probadas dentro del juego.** Se generaron automáticamente y solo se comprobó su estructura. Puede haber coordenadas erradas o pasos que no avanzan solos. No tienen relación con RestedXP ni con Blizzard.
 
@@ -9,13 +9,14 @@ Guías descargables, por rango de nivel, para el addon
 
 | Rango | Archivo | Contenido |
 |---|---|---|
+| 21–30 | [`Horde-Shaman-22-30.lua`](guides/horde-shaman/Horde-Shaman-22-30.lua) | 4 guías: Ashenvale y Silverpine, Hillsbrad, Barrens y Stonetalon, Ashenvale y Thousand Needles |
 | 29–51 | [`Horde-Shaman-30-50.lua`](guides/horde-shaman/Horde-Shaman-30-50.lua) | 12 guías: Hillsbrad y Arathi, Thousand Needles y Desolace, Stranglethorn, Dustwallow, Alterac y Arathi, Badlands, Feralas, Tanaris, Hinterlands y Azshara |
 | 51–60 | [`Horde-Shaman-50-60.lua`](guides/horde-shaman/Horde-Shaman-50-60.lua) | 7 guías: Un'Goro, Felwood, Winterspring, Azshara, Eastern Plaguelands, Silithus y Felwood |
 | 20–60 | [`Horde-Shaman-ClassQuests.lua`](guides/horde-shaman/Horde-Shaman-ClassQuests.lua) | Call of Water, Call of Air y armas de la Tempestad, Spirit Totem, The Darkreaver Menace |
 
 Todo junto, con instrucciones: [`guias-chaman-horda-forever.zip`](guides/horde-shaman/guias-chaman-horda-forever.zip).
 
-El tramo 1–29 lo cubre RestedXP Guides.
+El tramo 1–21 lo cubre RestedXP Guides.
 
 ## Instalación
 
@@ -24,6 +25,7 @@ El tramo 1–29 lo cubre RestedXP Guides.
 3. Abre `Interface/AddOns/RXPGuides/Guides/GuideList-forever.xml` y añade una línea por archivo, junto a las demás:
 
    ```xml
+   <Script file="Guides/forever/Horde-Shaman-22-30.lua"/>
    <Script file="Guides/forever/Horde-Shaman-30-50.lua"/>
    <Script file="Guides/forever/Horde-Shaman-50-60.lua"/>
    <Script file="Guides/forever/Horde-Shaman-ClassQuests.lua"/>
