@@ -1,0 +1,60 @@
+GUIAS DE CHAMAN DE LA HORDA PARA WoW FOREVER (formato RestedXP Guides)
+======================================================================
+
+Que es
+------
+Guias de leveling para un chaman de la Horda en WoW Forever, en el formato del
+addon RestedXP Guides. Cubren los niveles 29 a 60 y las misiones de clase.
+Este paquete NO incluye el addon RestedXP Guides: tienes que tenerlo instalado.
+No tiene relacion con RestedXP ni con Blizzard.
+
+Archivos
+--------
+Horde-Shaman-30-50.lua       12 guias, niveles 29-51 (Hillsbrad / Arathi ... Azshara)
+Horde-Shaman-50-60.lua        7 guias, niveles 51-60 (Un'Goro ... Felwood)
+Horde-Shaman-ClassQuests.lua  4 guias de misiones de chaman (Call of Water,
+                              Call of Air y armas de la Tempestad, Spirit Totem,
+                              The Darkreaver Menace)
+LICENSE                       GNU General Public License v3.0
+
+Instalacion
+-----------
+1. Cierra el juego.
+2. Copia los archivos .lua a:
+   World of Warcraft/_forever_/Interface/AddOns/RXPGuides/Guides/forever/
+3. Abre en un editor de texto:
+   World of Warcraft/_forever_/Interface/AddOns/RXPGuides/Guides/GuideList-forever.xml
+   y anade estas lineas junto a las demas lineas <Script ... />:
+
+       <Script file="Guides/forever/Horde-Shaman-30-50.lua"/>
+       <Script file="Guides/forever/Horde-Shaman-50-60.lua"/>
+       <Script file="Guides/forever/Horde-Shaman-ClassQuests.lua"/>
+
+4. Entra al juego (o /reload). Las guias salen en el grupo
+   "RestedXP Forever Guide (H)", en los subgrupos "Shaman Guide 30-50",
+   "Shaman Guide 50-60" y "Shaman Class Quests". Solo aparecen para un
+   chaman de la Horda.
+
+Si RestedXP Guides se actualiza, puede sobrescribir GuideList-forever.xml:
+vuelve a anadir las lineas.
+
+Antes de usarlas
+----------------
+- No se han probado dentro del juego. Se generaron automaticamente y solo se
+  comprobo su estructura. Pueden tener coordenadas o pasos que no avanzan.
+- Algunas misiones no tienen NPC de inicio o entrega en la base de datos: esos
+  pasos salen sin flecha.
+- Elemental Aid (Razorfen Kraul) y The Darkreaver Menace (Scholomance) son
+  misiones de mazmorra y necesitan grupo.
+
+Licencia y fuentes
+------------------
+Estas guias son obra derivada de datos y rutas publicados bajo GPL-3.0:
+  - Polestar, rutas de leveling de Forever: https://github.com/fitzforge/polestar
+  - forever-db, base de datos de misiones y NPCs de Forever (titulos, NPCs y
+    puntos de aparicion): https://github.com/fitzforge/polestar/tree/main/forever-db
+Se distribuyen bajo la GNU General Public License v3.0 o posterior, SIN NINGUNA
+GARANTIA. Ver el archivo LICENSE.
+Las modificaciones respecto a las fuentes: conversion al formato RestedXP,
+seleccion de pasos para chaman de la Horda y coordenadas calculadas desde la
+base de datos.
